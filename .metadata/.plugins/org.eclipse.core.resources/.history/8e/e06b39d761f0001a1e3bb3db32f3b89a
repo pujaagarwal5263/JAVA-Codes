@@ -1,0 +1,16 @@
+
+public class FirstCode {
+
+	public static void main(String[] args) {
+	  int num=234,n=0;
+	  int rev=0;
+	  
+	  for(;num>=0;) {
+		  n=num%10;
+		  rev=rev+n;
+		  num= num/10;
+		  
+	  }
+System.out.println(rev);
+}
+}

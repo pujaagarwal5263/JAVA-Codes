@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class A{
+	int num1;
+	int num2;
+	int result;
+	
+	public A(int num1, int num2) {
+		result=num1+num2;
+		System.out.println("Sum is"+result);
+	}
+}
+public class FirstCode {
+
+	public static void main(String[] args) {
+	
+		A obj= new A(3,4);
+   /*  Scanner s= new Scanner(System.in);
+     System.out.println("Enter");
+     String name= s.next();
+     System.out.println(name); */
+     
+	}
+
+}
